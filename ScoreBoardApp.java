@@ -183,7 +183,12 @@ public class ScoreBoardApp {
                 default:
                     System.out.println("\nInvalid choice. Please try again\n");
             }
+
+
         }
+
+        sc.close();
+
 
     }
 }
